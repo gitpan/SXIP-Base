@@ -1,0 +1,7 @@
+.cvsignore
+Build.PL
+lib/SXIP/Digest.pm
+MANIFEST			This list of files
+t/00-load.t
+META.yml
+Makefile.PL

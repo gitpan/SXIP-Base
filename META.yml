@@ -1,0 +1,15 @@
+---
+name: SXIP-Base
+version: 1.0.0
+author:
+  - Sxip Identity <dev@sxip.org>
+abstract: SXIP protocol digest algorithm
+license: bsd
+build_requires:
+  Digest::SHA1: 0
+  Test::More: 0
+provides:
+  SXIP::Digest:
+    file: lib/SXIP/Digest.pm
+    version: 1.0.0
+generated_by: Module::Build version 0.2611
